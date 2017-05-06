@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "TabAutoClose",
+  "version": "1.0",
+
+  "description": "Firefox extension for auto closing tabs that meet certain criteria.",
+
+  "permissions": ["tabs", "storage"],
+
+  "background": {
+    "scripts": ["closeTab.js"]
+  },
+  "homepage_url": "https://github.com/mobislan/TabAutoClose",
+  "options_ui": {
+    "page": "settings.html"
+  }
+}
